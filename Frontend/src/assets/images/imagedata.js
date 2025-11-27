@@ -1,6 +1,6 @@
-import clgimg1 from './college1.webp'; 
-import clgimg2 from './college2.webp';
-import clgimg3 from './college3.webp';
+import clgimg1 from 'https://raw.githubusercontent.com/Sridip-99/TMSL-Event-Management-Portal/refs/heads/main/Frontend/src/assets/images/college1.webp'; 
+import clgimg2 from 'https://raw.githubusercontent.com/Sridip-99/TMSL-Event-Management-Portal/refs/heads/main/Frontend/src/assets/images/college2.webp'; 
+import clgimg3 from 'https://raw.githubusercontent.com/Sridip-99/TMSL-Event-Management-Portal/refs/heads/main/Frontend/src/assets/images/college3.webp'; 
 
 export const ImageData = {
     clgimg1,
@@ -60,4 +60,5 @@ export const ImageData = {
     //                            #########################################                            
     //                                #################################                                
     //                                        #################                                        
+
                                                                                                     
