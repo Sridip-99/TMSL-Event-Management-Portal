@@ -1,3 +1,6 @@
+import Header from './component/Header.jsx';
+import Main from './component/Main.jsx';
+import Footer from './component/Footer.jsx';
 import { AppContext } from './context/Context.js';
 import axios from 'axios'
 
@@ -9,7 +12,9 @@ const api = axios.create({
 const App = () => {
   return (
     <AppContext.Provider value={{ BACKEND_URL, api }}> 
-      <div>App</div>
+      <Header />
+      <Main />
+      <Footer />
     </AppContext.Provider>
   )
 }
